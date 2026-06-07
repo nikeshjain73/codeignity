@@ -1,7 +1,7 @@
 import AppNavbar from '../components/AppNavbar';
 import HeroSection from '../components/HeroSection';
 import TeamSection from '../components/TeamSection';
-import PortfolioSection from '../components/PortfolioSection';
+// import PortfolioSection from '../components/PortfolioSection';
 import InternshipSection from '../components/InternshipSection';
 import ContactSection from '../components/ContactSection';
 import Footer from '../components/Footer';
@@ -31,7 +31,7 @@ export default function Home() {
       <main>
         <HeroSection />
         <SolutionsSection />
-        <PortfolioSection />
+        {/* <PortfolioSection /> */}
         <TeamSection />
         <InternshipSection />
         <ContactSection />
