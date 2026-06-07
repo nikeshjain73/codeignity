@@ -3,11 +3,8 @@
 import { Container, Row, Col } from 'react-bootstrap';
 
 const teamMembers = [
-    { name: "Dhaval Parmar", role: "Laravel Developer", expertise: "Foundation Builder", img: "/images/dhaval.jpg" },
-    { name: "Himani Ahire", role: "Multi-Stack & BDE", expertise: "The Strategic Fuel", img: "/images/himani.jpg" },
     { name: "Nikesh Jain", role: "Multi-Tech Specialist", expertise: "Intelligent Combustion", img: "/images/nikesh.jpg" },
     { name: "Chintan Parmar", role: "Graphics Designer with AI", expertise: "The Visual Spark", img: "/images/chintan.jpg" },
-    { name: "Riya Patel", role: "MERN Stack Developer", expertise: "The Modern Heat", img: "/images/riya.jpg" },
 ];
 
 const TeamSection = () => (
